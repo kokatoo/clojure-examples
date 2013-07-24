@@ -1,3 +1,3 @@
 # clojure-examples
 
-Examples of clojure codes.
+Examples of clojure code.
