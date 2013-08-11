@@ -37,3 +37,6 @@
 (= '(1 3 6 10 15 21 28 36 45 55 66)
    (reductions + (range 1 12)))
 
+;; cycle
+(take 10 ((fn [initial & fs]
+            (reductions #(%2 %) initial (cycle fs))) 3 inc  inc dec #(mod % 2)))
