@@ -17,6 +17,3 @@
 (let [{first :first-name last :last-name age :age :or {age 20}} user]
   (println "Age is", age))
 
-
-
-
